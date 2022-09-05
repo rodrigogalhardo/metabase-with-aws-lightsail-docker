@@ -26,8 +26,8 @@ services:
         MB_DB_PORT: 5432
         MB_DB_USER: postgres
         MB_DB_PASS: postgres
-        MB_DB_HOST: postgres-db
+        MB_DB_HOST: postgres-metabase-db
       depends_on:
         - postgres-metabase-db
       links:
-        - postgres-db
+        - postgres-metabase-db
