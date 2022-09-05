@@ -28,6 +28,6 @@ services:
         MB_DB_PASS: postgres
         MB_DB_HOST: postgres-db
       depends_on:
-        - postgres-db
+        - postgres-metabase-db
       links:
         - postgres-db
